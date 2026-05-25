@@ -22,5 +22,12 @@ public class CalculatorTest {
         }else{
             System.out.println("Multiplication Test Failed");
         }
+
+        //Division
+        if(cal.div(10, 3) == 3){
+            System.out.println("Division Test passed");
+        }else{
+            System.out.println("Division Test failed");
+        }
     }
 }
