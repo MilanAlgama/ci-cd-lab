@@ -15,5 +15,12 @@ public class CalculatorTest {
         }else{
             System.out.println("Substraction Test Failed");
         }
+
+        //Multiplication
+        if(cal.mul(4, 5) == 20){
+            System.out.println("Multiplication Test passed");
+        }else{
+            System.out.println("Multiplication Test Failed");
+        }
     }
 }
